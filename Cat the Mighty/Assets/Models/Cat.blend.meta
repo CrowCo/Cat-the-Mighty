@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: 6ea3087c0aa38d7438e4787e36e87431
+timeCreated: 1436428208
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Back
+    100004: bleg_L
+    100006: bleg_R
+    100008: //RootNode
+    100010: Cat
+    100012: fleg_L
+    100014: fleg_R
+    100016: Front
+    100018: master
+    100020: Middle
+    100022: Sphere
+    100024: tail
+    100026: Face
+    400000: Armature
+    400002: Back
+    400004: bleg_L
+    400006: bleg_R
+    400008: //RootNode
+    400010: Cat
+    400012: fleg_L
+    400014: fleg_R
+    400016: Front
+    400018: master
+    400020: Middle
+    400022: Sphere
+    400024: tail
+    400026: Face
+    2300000: Sphere
+    3300000: Sphere
+    4300000: Cat
+    4300002: Sphere
+    7400000: Default Take
+    7400002: Alert
+    7400004: Looking_001
+    7400006: Rolling
+    7400008: Running
+    7400010: Walking_001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 61
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Armature
+        weight: 1
+      - path: Cat/Armature/master
+        weight: 1
+      - path: Cat/Armature/master/Back
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_L
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_L
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle/Front
+        weight: 1
+      - path: Cat/Armature/tail
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Alert
+      takeName: Alert
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Armature
+        weight: 1
+      - path: Cat/Armature/master
+        weight: 1
+      - path: Cat/Armature/master/Back
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_L
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_L
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle/Front
+        weight: 1
+      - path: Cat/Armature/tail
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Looking_001
+      takeName: Looking_001
+      firstFrame: 4
+      lastFrame: 161
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Armature
+        weight: 1
+      - path: Cat/Armature/master
+        weight: 1
+      - path: Cat/Armature/master/Back
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_L
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_L
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle/Front
+        weight: 1
+      - path: Cat/Armature/tail
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Rolling
+      takeName: Rolling
+      firstFrame: -1
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Armature
+        weight: 1
+      - path: Cat/Armature/master
+        weight: 1
+      - path: Cat/Armature/master/Back
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_L
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_L
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle/Front
+        weight: 1
+      - path: Cat/Armature/tail
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Running
+      takeName: Running
+      firstFrame: -1
+      lastFrame: 31.920002
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Armature
+        weight: 1
+      - path: Cat/Armature/master
+        weight: 1
+      - path: Cat/Armature/master/Back
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_L
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_L
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle/Front
+        weight: 1
+      - path: Cat/Armature/tail
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walking_001
+      takeName: Walking_001
+      firstFrame: -1
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cat
+        weight: 1
+      - path: Cat/Armature
+        weight: 1
+      - path: Cat/Armature/master
+        weight: 1
+      - path: Cat/Armature/master/Back
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_L
+        weight: 1
+      - path: Cat/Armature/master/Back/bleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_L
+        weight: 1
+      - path: Cat/Armature/master/Middle/fleg_R
+        weight: 1
+      - path: Cat/Armature/master/Middle/Front
+        weight: 1
+      - path: Cat/Armature/tail
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

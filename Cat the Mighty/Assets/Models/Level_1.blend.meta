@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: bff2b9ffff96c2141a6e59fde99c4291
+timeCreated: 1438346692
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Floor01
+    100002: //RootNode
+    100004: LoadLevel
+    100006: LoadLevel_001
+    100008: Plane_001
+    100010: Plane_003
+    100012: Plane_004
+    100014: Target
+    100016: Wall
+    100018: Wall_001
+    100020: Wall_002
+    100022: LoadLevel_000
+    100024: Plane_000
+    400000: Floor01
+    400002: //RootNode
+    400004: LoadLevel
+    400006: LoadLevel_001
+    400008: Plane_001
+    400010: Plane_003
+    400012: Plane_004
+    400014: Target
+    400016: Wall
+    400018: Wall_001
+    400020: Wall_002
+    400022: LoadLevel_000
+    400024: Plane_000
+    2300000: Floor01
+    2300002: LoadLevel
+    2300004: LoadLevel_001
+    2300006: Plane_001
+    2300008: Plane_003
+    2300010: Plane_004
+    2300012: Target
+    2300014: Wall
+    2300016: Wall_001
+    2300018: Wall_002
+    2300020: LoadLevel_000
+    2300022: Plane_000
+    3300000: Floor01
+    3300002: LoadLevel
+    3300004: LoadLevel_001
+    3300006: Plane_001
+    3300008: Plane_003
+    3300010: Plane_004
+    3300012: Target
+    3300014: Wall
+    3300016: Wall_001
+    3300018: Wall_002
+    3300020: LoadLevel_000
+    3300022: Plane_000
+    4300000: Wall_002
+    4300002: Wall_001
+    4300004: LoadLevel_001
+    4300006: Target
+    4300008: Wall
+    4300010: Plane_003
+    4300012: LoadLevel
+    4300014: Plane_001
+    4300016: Floor01
+    4300018: Plane_004
+    4300020: LoadLevel_000
+    4300022: Plane_000
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
