@@ -1,0 +1,4 @@
+I am currently testing the text reader /n \n
+testing 1 2 3 /n \n
+test test test /n \n
+let's have a look /n
