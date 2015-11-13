@@ -55,7 +55,7 @@ public class Combat : MonoBehaviour {
 		if(Input.GetKey("z")){
 			LockOn(target);
 		}
-		if(Input.GetKey("v")){
+		if(Input.GetKeyDown("v")){
 			Attack ();
 		}
 	}
@@ -82,6 +82,10 @@ public class Combat : MonoBehaviour {
 		catAudio.Play ();
 		shootRay.origin = transform.position;
 		shootRay.direction = transform.forward;
+
+		//instantiate hitbox
+		//check for collision
+		//destroy hitbox
 		
 		if(Physics.Raycast (shootRay, out shootHit, range))
 		{
