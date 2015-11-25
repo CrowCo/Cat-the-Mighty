@@ -18,6 +18,7 @@ public class TextRead : MonoBehaviour
 	{
 		textHUD = textHUD.GetComponent<Canvas> ();
 		anim.SetBool ("TextOpen", TextOpen);
+		dialog = textHUD.GetComponentInChildren<Text> ();
 
 		// Make sure there this a text
 		// file assigned before continuing
@@ -29,7 +30,7 @@ public class TextRead : MonoBehaviour
 			dialogLines = ( textFile.text.Split( '\n' ) );
 			// Assign the first string
 			// in the array to a variable
-			string message = dialogLines[scriptNum];
+			string message = dialogLines[0];
 			dialog.text = message;
 		}
 	}

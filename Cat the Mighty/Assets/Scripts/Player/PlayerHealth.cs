@@ -16,13 +16,15 @@ public class PlayerHealth : MonoBehaviour
     bool isDead;
     bool damaged;
 
+	void Start(){
+		DontDestroyOnLoad (gameObject);
+	}
 
     void Awake ()
     {
         anim = GetComponent <Animator> ();
         playerAudio = GetComponent <AudioSource> ();
         playerMovement = GetComponent <PlayerMovement> ();
-        //playerShooting = GetComponentInChildren <PlayerShooting> ();
         currentHealth = startingHealth;
     }
 

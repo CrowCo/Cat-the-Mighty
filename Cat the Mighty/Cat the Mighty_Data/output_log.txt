@@ -16,7 +16,7 @@ Platform assembly: C:\Users\Lillian\SkyDrive\Games\Game Design\Cat the Mighty\Ca
 Loading C:\Users\Lillian\SkyDrive\Games\Game Design\Cat the Mighty\Cat the Mighty_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Lillian\SkyDrive\Games\Game Design\Cat the Mighty\Cat the Mighty_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Lillian\SkyDrive\Games\Game Design\Cat the Mighty\Cat the Mighty_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  6.841 seconds
+- Completed reload, in  0.242 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
@@ -24,4 +24,81 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 Platform assembly: C:\Users\Lillian\SkyDrive\Games\Game Design\Cat the Mighty\Cat the Mighty_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Lillian\SkyDrive\Games\Game Design\Cat the Mighty\Cat the Mighty_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 618 -> priority: 1 
+  Thread -> id: 2b5c -> priority: 1 
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.823049 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 482.
+Total: 0.329331 ms (FindLiveObjects: 0.035699 ms CreateObjectMapping: 0.018742 ms MarkObjects: 0.262840 ms  DeleteObjects: 0.011602 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Combat.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.627466 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 461.
+Total: 0.944260 ms (FindLiveObjects: 0.096835 ms CreateObjectMapping: 0.046856 ms MarkObjects: 0.761745 ms  DeleteObjects: 0.035253 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Combat.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.693957 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 484.
+Total: 0.282921 ms (FindLiveObjects: 0.020081 ms CreateObjectMapping: 0.016957 ms MarkObjects: 0.212414 ms  DeleteObjects: 0.033022 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Combat.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.844789 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 457.
+Total: 0.384665 ms (FindLiveObjects: 0.032129 ms CreateObjectMapping: 0.025436 ms MarkObjects: 0.308803 ms  DeleteObjects: 0.017403 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Combat.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.422192 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 368.
+Total: 0.352982 ms (FindLiveObjects: 0.034361 ms CreateObjectMapping: 0.028113 ms MarkObjects: 0.206612 ms  DeleteObjects: 0.083448 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Combat.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.333835 ms
+
+Unloading 81 unused Assets to reduce memory usage. Loaded Objects now: 278.
+Total: 0.909453 ms (FindLiveObjects: 0.064705 ms CreateObjectMapping: 0.028559 ms MarkObjects: 0.391805 ms  DeleteObjects: 0.422596 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.635903 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 288.
+Total: 0.315497 ms (FindLiveObjects: 0.028113 ms CreateObjectMapping: 0.024543 ms MarkObjects: 0.252130 ms  DeleteObjects: 0.009371 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at TextScript.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at TextScript.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

@@ -5,9 +5,10 @@ using System.Collections;
 public class TextScript : MonoBehaviour {
 	public Canvas textHUD;
 	public Animator anim;
-	public string[] script;
 	public GameObject NPC;
 	public int scriptNum;
+	public TextAsset textFile;
+	string[] dialogLines;
 	bool TextOpen = true;
 	Text dialog;
 	//Sprite[] images;
@@ -16,25 +17,39 @@ public class TextScript : MonoBehaviour {
 	public float letterPause = 0.2f;
 	//public AudioClip typeSound1;
 	//public AudioClip typeSound2;
-	string message;
+	public string message;
 
 	void Start () {
 		textHUD = textHUD.GetComponent<Canvas> ();
-		//images = gameObject.GetComponentsInChildren<Sprite>();
 		//anim = gameObject.GetComponent<Animator> ();
 		anim.SetBool ("TextOpen", TextOpen);
-		dialog.text = script[0];
-		message = dialog.text;
+		dialog = GetComponent<Text>();
+		
+		// Make sure there this a text
+		// file assigned before continuing
+		if(textFile != null)
+		{
+			// Add each line of the text file to
+			// the array using the new line
+			// as the delimiter
+			dialogLines = ( textFile.text.Split( '\n' ) );
+
+		}
+		// Assign the first string
+		// in the array to a variable
+		string message = dialogLines[scriptNum];
+		//dialog.text = message;
+		dialog.text = dialogLines[scriptNum];
 		dialog.text = "";
+
 		StartCoroutine(TypeText ());
 	}
 
 
 	void Update () {
 		if (Input.GetKeyDown ("t")) {
-			dialog = GetComponent<Text>();
 			scriptNum++;
-			dialog.text = script[scriptNum];
+			dialog.text = dialogLines[scriptNum];
 			message = dialog.text;
 			dialog.text = "";
 
@@ -45,7 +60,7 @@ public class TextScript : MonoBehaviour {
 			ChangeFace(NPCEmotionController.EmotionType.ANGER);
 		}
 
-		if (scriptNum == script.Length) {
+		if (scriptNum == dialogLines.Length) {
 			anim.SetBool ("TextOpen", false);
 		}
 
@@ -60,6 +75,26 @@ public class TextScript : MonoBehaviour {
 		}
 
 		StopCoroutine(TypeText());
+	}
+	void GetButtonResult () {
+		
+		/*Find the buttons in the screen, turn them on
+		 * 
+		 * Stop the text from continuing
+		 * 
+		 * Get the results of the button press
+		 * 
+		 * start printing the lines of text from there
+		 * if(1)
+		 * +1 message
+		 * +1
+		 * 
+		 * if(2)
+		 * +2 message
+		 * 
+		 * Reenable the text
+		 */
+		
 	}
 
 	void ChangeFace (NPCEmotionController.EmotionType faceNumber) {

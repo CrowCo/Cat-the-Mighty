@@ -9,6 +9,7 @@ public class EnemyAttack : MonoBehaviour
 
     Animator anim;
     GameObject player;
+	GameObject editor;
     PlayerHealth playerHealth;
     EnemyHealth enemyHealth;
     bool playerInRange;
@@ -18,7 +19,8 @@ public class EnemyAttack : MonoBehaviour
     void Awake ()
     {
         player = GameObject.FindGameObjectWithTag ("Player");
-        playerHealth = player.GetComponent <PlayerHealth> ();
+		editor = GameObject.FindGameObjectWithTag ("Editor");
+        playerHealth = editor.GetComponent <PlayerHealth> ();
         enemyHealth = GetComponent<EnemyHealth>();
         anim = GetComponent <Animator> ();
     }
@@ -53,7 +55,7 @@ public class EnemyAttack : MonoBehaviour
 
         if(playerHealth.currentHealth <= 0)
         {
-            anim.SetTrigger ("PlayerDead");
+            anim.SetTrigger ("Dead");
         }
     }
 

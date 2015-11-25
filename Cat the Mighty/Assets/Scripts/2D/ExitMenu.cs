@@ -34,7 +34,7 @@ public class ExitMenu : MonoBehaviour {
 	}
 
 	public void LoadLevel(){
-		Application.LoadLevel ("Load_screen");
+		Application.LoadLevel ("level_01");
 	}
 
 	public void exitGame(){
